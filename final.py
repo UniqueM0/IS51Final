@@ -17,5 +17,26 @@ print to the user the average grade score
 print to the user the percent of grades that are above average
 close the file 
 
+"""
 
+"""
+define calculate percent above average 
+set count equals 0
+use if statement to explain grade is greater than average score
+add the number of count +1 to get average 
+then return the count and * by 100 and divide by number of grades in total
+
+define main
+open file "final(1).txt"
+set grades to an empty list
+use for statement to automate the list of grades
+append the grades and strip
+print the grade count to user
+set average to 0
+use for statement to get the grade in grades
+add average with grade
+print average grade 
+print percentage of grades above average (calculate the percen of grades that are above average)
+close file
+call main function 
 """
